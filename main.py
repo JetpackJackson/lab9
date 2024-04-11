@@ -6,7 +6,7 @@ def encode(password):
         encoded_password += str(int(newchar) % 10)
     return encoded_password
     
-#Katarina Neal
+#Katarina Neal(added decoder)
     def decoder(password):
     result = ''
     for digit in password:
