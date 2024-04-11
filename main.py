@@ -7,7 +7,7 @@ def encode(password):
     return encoded_password
     
 #Katarina Neal(added decoder)
-    def decoder(password):
+def decoder(password):
     result = ''
     for digit in password:
         new_digit = str((int(digit) - 3) % 10)
